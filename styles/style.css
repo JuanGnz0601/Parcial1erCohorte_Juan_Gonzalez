@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(77, 130, 243);
+}
+header{
+    width:118rem;
+    height:10rem ;
+    border:3px solid rgb(233, 117, 8);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+  }
+
+  main{
+
+  }
+  

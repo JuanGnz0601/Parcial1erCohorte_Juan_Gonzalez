@@ -1,39 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
-    <title>OVI</title>
+    <title>OVI - Base de Datos 1</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1>ovi Base de Datos 1</h1>
-        </div>
-                    <nav>
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#news">Lecturas</a></li>
-                    <li><a href="#contact">Multimedias</a></li>
-                    <li><a href="#about">Actividades</a></li>
-                    <li><a href="#about">Autores</a></li>
-                  </ul>
-            </nav>
-    </header>
+        <section id="header-section">
+            <h1>OVI Base de Datos 1</h1>
+        </section><br>
+        <nav>
+            <ul class="menu">
+                <li><a href="/index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#">Lecturas</a>
+                    <ul class="dropdown-content">
+                        <li><a href="/pages/bd1.html">Base de Datos 1</a></li>
+                        <li><a href="/pages/mbd.html">Modelos de Bases de Datos</a></li>
+                        <li><a href="/pages/nbd.html">Normalización de Bases de Datos</a></li>
+                        <li><a href="/pages/sql.html">Consultas SQL Básicas</a></li>
+                        <li><a href="/pages/tbd.html">Transacciones en Bases de Datos</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Multimedia</a>
+                    <ul class="dropdown-content">
+                        <li><a href="/pages/multi.html">Video Que es SQL</a></li>
+                        <li><a href="/pages/multi1.html">Video Normalizacion BD</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Actividades</a>
+                    <ul class="dropdown-content">
+                        <li><a href="/pages/activi1.html">Actividad 1</a></li>
+                        <li><a href="/pages/acti2.html">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="/pages/autores.html">Autores</a></li>
+            </ul>
+        </nav>
+        
+    </header><br>
     <main>
-        <div>
-            <h1>Bienvenidos</h1>
+        <section id="main-section1">
+            <h1>Bienvenidos a nuestro OVI ...!</h1>
+            <img src="/img/img1.png"  alt="">
+            
             <h2>Objetivo General</h2>
-            <p>El objetivo de este Objeto Virtual de Información (OVI) es proporcionar a los estudiantes de Base de Datos 1 
-                los conocimientos fundamentales sobre los sistemas de bases de datos, su diseño y gestión. 
-                A través de este OVI, los estudiantes podrán aprender de manera interactiva y didáctica los conceptos claves 
-                que componen el diseño y la administración de bases de datos, aplicando estos conocimientos a situaciones 
-                prácticas y reales.</p>
-        </div>
-    </main>
+            <p>
+                Desarrollar un objeto virtual de información donde los estudiantes de la materia de Base de Datos 1 puedan encontrar contenidos de manera didáctica e interactiva, de forma que sea de fácil aprendizaje, donde un usuario sin conocimiento previo en el desarrollo pueda acceder y aplicar los conocimientos.
+            </p>
+            
+            <h2>Introducción a Base de Datos</h2>
+            <p>
+                Las bases de datos son fundamentales para el manejo eficiente de la información en todo tipo de organización. Desde pequeñas empresas hasta grandes corporaciones, el uso de bases de datos permite almacenar, organizar y recuperar datos de manera rápida y precisa.
+                Base de Datos 1 es una asignatura introductoria que busca enseñar los principios fundamentales de las bases de datos, con especial énfasis en los modelos relacionales. A lo largo de este OVI, se abordarán temas como la estructura de las bases de datos, el diseño de esquemas eficientes y el uso del lenguaje SQL para gestionar y manipular la información almacenada.
+                El propósito principal es que el estudiante pueda aplicar los conceptos aprendidos para desarrollar bases de datos funcionales que mejoren la toma de decisiones y optimicen la gestión de información dentro de cualquier organización. Además, el estudiante aprenderá a evitar problemas comunes como la redundancia de datos y las anomalías de actualización, asegurando la integridad y consistencia de los datos.
+            </p>
+        </section>
+        
+    </main><br><br>
     <footer>
-
+        <section id="footer-section">
+            <h2>Ing. Sistemas</h2>
+        </section>
     </footer>
 </body>
 </html>

@@ -39,7 +39,6 @@ body {
     background-color: #ff7f0e;
 }
 
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -67,7 +66,6 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 
 #main-section1 {
     width: 70rem;
